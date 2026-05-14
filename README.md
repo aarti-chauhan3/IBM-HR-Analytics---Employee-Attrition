@@ -19,11 +19,12 @@ Project Files
 
 This HR Analytics project uses the IBM HR Analytics dataset with 1,470 employee records. We look at why employees leave using SQL, Python and Power BI. Our goal is to provide HR with data-backed recommendations.
 
-|    Metric              | Value |
-| Total Employees        | 1,470 |
-| Total Attrition        | 237   |
-| Retained Employees     | 1,233 |
-| Attrition Rate         | 16.12%|
+| Metric | Value |
+|---|---|
+| Total Employees | 1,470 |
+| Total Attrition | 237 |
+| Retained Employees | 1,233 |
+| Attrition Rate | 16.12% |
 
 
 **2) Problem Statement**
@@ -34,29 +35,33 @@ This project answers:
 ## Is salary, overtime or career stagnation driving exits?
 ## What does a high-risk employee profile look like?
 
-**3) Project Workflow**
-1️⃣ Data Collection
-•	Source: IBM HR Analytics Dataset. Kaggle
-•	35 columns covering demographics, compensation, satisfaction, tenure and performance
-2️⃣ Excel (Data Exploration)
-•	Validated columns and data types
-•	Identified null values and inconsistencies
-3️⃣ Python (Exploratory Data Analysis)
-•	Attrition distribution
-•	Age group and gender-based attrition
-•	Salary trend visualization
-•	Department-wise attrition breakdown
-4️⃣ MySQL (Business Analysis) 
-•	Structured SQL queries across 4 categories:
-•	Attrition Analysis
-•	Compensation Analysis
-•	Job Satisfaction
-•	Employee Profile
-5️⃣ Power BI (Interactive Dashboard)
-•	KPI Cards: Total Employees, Attrition Count, Retention Count, Attrition Rate
-•	Attrition by Department, Age Group, Tenure, Job Level
+## Project Workflow
 
+**1️⃣ Data Collection**
+- Source: IBM HR Analytics Dataset — Kaggle
+- 35 columns covering demographics, compensation, satisfaction, tenure and performance
 
+**2️⃣ Excel — Data Exploration**
+- Validated columns and data types
+- Identified null values and inconsistencies
+
+**3️⃣ Python — Exploratory Data Analysis**
+- Attrition distribution
+- Age group and gender based attrition
+- Salary trend visualization
+- Department wise attrition breakdown
+
+**4️⃣ MySQL — Business Analysis**
+- Structured SQL queries across 4 categories:
+  - Attrition Analysis
+  - Compensation Analysis
+  - Job Satisfaction
+  - Employee Profile
+
+**5️⃣ Power BI — Interactive Dashboard**
+- KPI Cards: Total Employees, Attrition Count, Retention Count, Attrition Rate
+- Attrition by Department, Age Group, Tenure, Job Level
+- Slicers: Department, Gender, Overtime
 **4) Power BI Dashboard**
 ![HR Analytics Dashboard](Dashboard.png)
 
@@ -102,12 +107,13 @@ Investigate management quality and growth ceiling for Sales Executives.
 
 ## Tools & Technologies
 
-| Category          |               Tool                 |
-| Data Source       |  IBM HR Analytics Dataset (Kaggle) |
-| Data Exploration  |  Microsoft Excel                   |
-| EDA & Cleaning    |  Python. Pandas, Matplotlib        |
-| Business Analysis |  MySQL                             |
-| Visualization     |  Power BI                          |
+| Category | Tool |
+|---|---|
+| Data Source | IBM HR Analytics Dataset (Kaggle) |
+| Data Exploration | Microsoft Excel |
+| EDA & Cleaning | Python, Pandas, Matplotlib |
+| Business Analysis | MySQL |
+| Visualization | Power BI |
 
 **Skills Demonstrated**
 o	Data Cleaning & Validation
