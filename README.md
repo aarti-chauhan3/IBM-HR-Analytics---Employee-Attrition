@@ -59,8 +59,7 @@ This project answers:
 
 
 **4) Power BI Dashboard**
-Dashboard Preview
-
+![HR Analytics Dashboard](Dashboard.png)
 
 **5) Key Business Insights**
 **A] Department Attrition**
