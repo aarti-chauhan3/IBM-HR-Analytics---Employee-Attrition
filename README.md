@@ -8,7 +8,6 @@
 3) Project Workflow
 4) Dashboard Preview
 5) Key Business Insights
-6) SQL Analysis Highlights
 
 **Top Recommendations**
 High-Risk Employee Profile
@@ -62,43 +61,25 @@ This project answers:
 ![HR Analytics Dashboard](Dashboard.png)
 
 **5) Key Business Insights**
-**A] Department Attrition**
 
-|      Department	        | Employees Left	| % of Total Attrition |
-| Research & Development	|       133       |	      56.12%         |
-|       Sales   	        |       92	      |       38.82%         |          
-|    Human Resources	    |       12   	    |       5.06%          |
+### A) Department Attrition
+| Department | Employees Left | % of Total |
+|---|---|---|
+| Research & Development | 133 | 56.12% |
+| Sales | 92 | 38.82% |
+| Human Resources | 12 | 5.06% |
 
-**B] Overtime Impact**
-
+### B) Overtime Impact
 | Overtime Status | Attrition Count | Attrition Rate |
-|      Yes        | 127             | **30.5%**      |
-|      No         | 110             | **10.4%**      |
-   
-**C] Salary Gap**
+|---|---|---|
+| Yes | 127 | 30.5% |
+| No | 110 | 10.4% |
 
+### C) Salary Gap
 | Employee Status | Avg Monthly Income |
-| Left            |       ₹4,787       |
-| Stayed          |       ₹6,833       |
-
-
-**6) SQL Analysis Highlights**
--------- Overtime vs Attrition Rate --------
-SELECT OverTime COUNT(*) as attrition_count
-FROM hr_analytics
-WHERE Attrition = 'Yes'
-GROUP BY overtime;
-
--------- High-Risk Employee Profile --------
-SELECT Department, OverTime,
-ROUND(AVG(Age),2) as avg_age,
-ROUND(AVG(MonthlyIncome),2) as avg_income,
-COUNT(*) as attrition_count
-FROM hr_analytics
-WHERE Attrition = 'Yes'
-GROUP BY Department, Overtime
-ORDER BY attrition_count DESC;
-
+|---|---|
+| Left | ₹4,787 |
+| Stayed | ₹6,833 |
 
 ## Top Recommendations
 
@@ -134,29 +115,6 @@ o	Exploratory Data Analysis (EDA)
 o	Advanced SQL Query Writing
 o	Business Insight Generation
 o	KPI Reporting & Dashboard Development
-
-
-## 📁 Project Files
-
-```
-
-IBM-HR-Analytics/
-
-│
-
-├── 📊 IBM_HR_Analytics.pbix
-
-├── 🗄  SQL_Queries.sql
-
-├── 📓 HR_Analytics_EDA.ipynb
-
-├── 🖼️  Dashboard_Screenshot.png
-
-├── 📄 dataset.csv
-
-└── 📝 README.md
-
-```
 
 ## 👤 Author
 
