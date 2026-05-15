@@ -126,3 +126,4 @@ o	KPI Reporting & Dashboard Development
 ## 👤 Author
 
 **Aarti Chauhan**
+## I built this project to understand why employees leave companies. As someone who has worked in data, I wanted to go beyond just numbers and find the real story behind the 16.12% attrition rate.
