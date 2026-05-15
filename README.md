@@ -10,10 +10,11 @@
 5) Key Business Insights
 
 **Top Recommendations**
-High-Risk Employee Profile
-Tools & Technologies
-Skills Demonstrated
-Project Files
+1. Top Recommendations
+2. High-Risk Employee Profile
+3. Tools & Technologies
+4. Skills Demonstrated
+5. Project Files
 
 **1) Project Overview**
 
@@ -125,5 +126,3 @@ o	KPI Reporting & Dashboard Development
 ## 👤 Author
 
 **Aarti Chauhan**
-
-I am a data analyst learner.
